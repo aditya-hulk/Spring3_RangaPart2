@@ -25,3 +25,18 @@
 ![alt text](image-79.png)![alt text](image-80.png)![alt text](image-81.png)![alt text](image-82.png)
 # Quiz-12
 ![alt text](image-83.png)![alt text](image-84.png)![alt text](image-85.png)![alt text](image-86.png)
+# Section-16. Learning Gradle
+# 226. Code backup
+https://github.com/in28minutes/master-spring-and-spring-boot/tree/main/82-gradle
+# 227. Step-1 Started with Gradle
+![alt text](image-87.png)![alt text](image-88.png)![alt text](image-89.png)
+# 228. Step-2 Creating Spring Boot Project with Gradle
+![alt text](image-90.png)![alt text](image-91.png)![alt text](image-92.png)![alt text](image-93.png)![alt text](image-94.png)![alt text](image-95.png)
+# 229. Step-3: Exploring Gradle build and Setting files
+![alt text](image-96.png)![alt text](image-97.png)![alt text](image-98.png)![alt text](image-99.png)![alt text](image-100.png)
+# 230. Step-4 Exploring Gradle Plugins for Java and Spring boot
+![alt text](image-101.png)![alt text](image-102.png)![alt text](image-103.png)![alt text](image-104.png)![alt text](image-105.png)![alt text](image-106.png)![alt text](image-107.png)![alt text](image-108.png)![alt text](image-109.png)![alt text](image-110.png)![alt text](image-111.png)![alt text](image-112.png)![alt text](image-113.png)![alt text](image-114.png)![alt text](image-115.png)![alt text](image-116.png)![alt text](image-117.png)
+# 231. Step05: Maven or Gradle
+![alt text](image-118.png)![alt text](image-119.png)![alt text](image-120.png)![alt text](image-121.png)![alt text](image-122.png)![alt text](image-123.png)![alt text](image-124.png)
+# Quiz-13
+![alt text](image-125.png)![alt text](image-126.png)![alt text](image-127.png)![alt text](image-128.png)![alt text](image-129.png)
