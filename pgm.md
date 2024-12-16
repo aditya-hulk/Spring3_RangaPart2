@@ -815,5 +815,54 @@ public class LoggingAspect {
 ```
 --------
 ------
+# 233
+```
+1.	docker container run -d -p 5000:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
+2.	docker container run -d -p 5000:5000 in28min/hello-world-java:0.0.1.RELEASE
+3.	docker container run -d -p 5000:5000 in28min/hello-world-python:0.0.1.RELEASE
+4.	docker container ls 
+5.	docker image ls
+6.	docker container stop cc
+7.	docker container run -d -p 5001:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
+8.	docker container run -d -p 5002:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
+9.	docker container run -p 5003:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
+10.	docker container run -p 5003:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
+11.	 
+12.	docker --version
+13.	docker container ls
+14.	docker build -t in28min/hello-world-docker:v1 .
+15.	docker image list
+16.	docker run -d -p 5000:5000 in28min/hello-world-docker:v1
+17.	docker build -t in28min/hello-world-docker:v2 .
+18.	docker container run -d -p 5000:5000 in28min/hello-world-docker:v2
+19.	docker build -t in28min/hello-world-docker:v3 .
+20.	docker container run -d -p 5000:5000 in28min/hello-world-docker:v3
+21.	docker build -t in28min/hello-world-docker:v4 .
+```
+---
+-----
+# 234 
+```java
+docker --version
+
+docker container run -d -p 5000:5000 in28min/hello-world-python:0.0.1.RELEASE
+```
+----
+-----
+# 235
+```java
+docker container ls
+or 
+docker container list
+
+docker container stop 46e
+or
+docker container stop 46ed1f7f3db0 
+
+docker container run -d -p 5000:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
+```
+------
+------
+
 
 
