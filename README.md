@@ -40,3 +40,34 @@ https://github.com/in28minutes/master-spring-and-spring-boot/tree/main/82-gradle
 ![alt text](image-118.png)![alt text](image-119.png)![alt text](image-120.png)![alt text](image-121.png)![alt text](image-122.png)![alt text](image-123.png)![alt text](image-124.png)
 # Quiz-13
 ![alt text](image-125.png)![alt text](image-126.png)![alt text](image-127.png)![alt text](image-128.png)![alt text](image-129.png)
+# Section-17: Learning Docker with Spring Boot
+# 232. Code backup file
+https://github.com/in28minutes/master-spring-and-spring-boot/tree/main/83-docker/hello-world-java
+
+https://github.com/in28minutes/master-spring-and-spring-boot/archive/main.zip
+# 233. Commands Use in this lecture
+![alt text](image-130.png)
+# 234. Step-1: Getting Started with Docker.
+![alt text](image-131.png)![alt text](image-132.png)![alt text](image-133.png)![alt text](image-134.png)
+# 235. Step-2: Understanding the docker fundamental
+![alt text](image-135.png)![alt text](image-136.png)![alt text](image-137.png)![alt text](image-138.png)![alt text](image-139.png)
+# 236. Step-3: Understanding how Docker Works?
+![alt text](image-140.png)
+
+https://hub.docker.com/r/in28min/hello-world-nodejs
+
+![alt text](image-141.png)![alt text](image-142.png)![alt text](image-143.png)![alt text](image-144.png)![alt text](image-145.png)![alt text](image-146.png)![alt text](image-147.png)![alt text](image-148.png)![alt text](image-149.png)![alt text](image-150.png)
+# 237. Step-4: Understanding Docker terminology
+![alt text](image-151.png)![alt text](image-152.png)
+# 239. Step-05: Creating Docker file
+![alt text](image-153.png)![alt text](image-154.png)![alt text](image-155.png)![alt text](image-156.png)![alt text](image-157.png)![alt text](image-158.png)![alt text](image-159.png)![alt text](image-160.png)![alt text](image-161.png)![alt text](image-162.png)![alt text](image-163.png)![alt text](image-164.png)![alt text](image-165.png)
+# 240. Step-6: Building Docker image using Multi Stage Docker-file
+![alt text](image-166.png)![alt text](image-167.png)![alt text](image-168.png)![alt text](image-169.png)![alt text](image-170.png)![alt text](image-171.png)![alt text](image-172.png)
+# 241: Optimizing Dockerfile
+![alt text](image-173.png)![alt text](image-174.png)![alt text](image-175.png)![alt text](image-176.png)![alt text](image-177.png)![alt text](image-178.png)![alt text](image-179.png)![alt text](image-180.png)![alt text](image-181.png)![alt text](image-182.png)![alt text](image-183.png)
+# 242. Docker Image via Spring Boot Maven plugin
+![alt text](image-184.png)![alt text](image-185.png)![alt text](image-186.png)![alt text](image-187.png)![alt text](image-188.png)![alt text](image-189.png)![alt text](image-190.png)![alt text](image-191.png)![alt text](image-192.png)![alt text](image-193.png)![alt text](image-194.png)![alt text](image-195.png)![alt text](image-196.png)
+# 243. Step-9: Review
+![alt text](image-197.png)![alt text](image-198.png)![alt text](image-199.png)![alt text](image-200.png)![alt text](image-201.png)![alt text](image-202.png)![alt text](image-203.png)![alt text](image-204.png)![alt text](image-205.png)![alt text](image-206.png)![alt text](image-207.png)
+# Quiz-14:
+![alt text](image-208.png)![alt text](image-209.png)![alt text](image-210.png)![alt text](image-211.png)

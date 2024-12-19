@@ -863,6 +863,102 @@ docker container run -d -p 5000:5000 in28min/hello-world-nodejs:0.0.1.RELEASE
 ```
 ------
 ------
+# 239
+### HelloWorldController
+```java
+package com.in28min.rest.webservices;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldController {
+	
+	@GetMapping(path = "/")
+	public String helloWorld() {
+		return "{\"message\":\"Hello World Java Adi v11\"}";
+	}
+}
+```
+### app.prop
+```properties
+spring.application.name=hello-world-java2
+logging.level.org.springframework=debug
+server.port=5000
+```
+### Dockerfile
+```file
+FROM openjdk:17.0-slim 
+COPY target/*.jar app.jar 
+EXPOSE 5000 
+ENTRYPOINT ["java","-jar","/app.jar"]
+```
+### Commands
+```properties
+
+# For building image
+- We have to go to specific folder and run the bellow command
+
+C:\Users\Asus\OneDrive\Desktop\ReviseNotes\Spring3\Ranga_Spring3\Execution_02\Docker\1\hello-world-java2\hello-world-java2>docker build -t in28min/hello-world-docker:v11 .
+
+# version
+docker --version
+
+# for image list
+docker image list or docker image ls
+
+# for running docker image
+- We have to go to specif folder and run bellow command.
+C:\Users\Asus\OneDrive\Desktop\ReviseNotes\Spring3\Ranga_Spring3\Execution_02\Docker\1\hello-world-java2\hello-world-java2>docker run -d -p 5001:5000 in28min/hello-world-docker:v11
+
+# for docker container list
+docker container ls or docker container list
+```
+---------
+---------
+# 240
+###  HelloWorldController
+```java
+package com.in28min.rest.webservices;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class HelloWorldController {
+	
+	@GetMapping(path = "/")
+	public String helloWorld() {
+		return "{\"message\":\"Hello World Java Adi v12\"}";
+	}
+}
+```
+### Dockerfile
+```properties
+FROM maven:3.8.6-openjdk-18-slim AS build 
+WORKDIR /home/app 
+COPY . /home/app 
+RUN mvn -f /home/app/pom.xml clean package
+
+FROM openjdk:18-slim
+EXPOSE 5001 
+COPY --from=build /home/app/target/*.jar app.jar
+ENTRYPOINT [ "sh", "-c", "java -jar /app.jar" ]
+```
+### Commands
+```properties
+
+# building docker image
+docker build -t in28min/hello-world-docker:v12 .
+
+# Running docker image
+docker container run -d -p 5001:5000 in28min/hello-world-docker:v12
+```
+-------
+-------
+
+
+
 
 
 
