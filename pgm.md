@@ -956,6 +956,174 @@ docker container run -d -p 5001:5000 in28min/hello-world-docker:v12
 ```
 -------
 -------
+# 246
+### MyMath
+```java
+package com.in28min.junit;
+
+public class MyMath {
+
+	public int calculateSum(int[] numbers) {
+
+		int sum = 0;
+		for (int number : numbers) {
+			sum += number;
+		}
+
+		return sum;
+	}
+}
+```
+## Positive Junit Test
+### MyMathTest
+```java
+package com.in28min.junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MyMathTest {
+
+	@Test
+	void test() {
+
+		MyMath math = new MyMath();
+
+		int numbers[] = { 1, 2, 3 };
+
+		int result = math.calculateSum(numbers);
+
+		System.out.println(result);
+
+		int expectedResult = 6;
+
+		assertEquals(expectedResult, result);
+	}
+}
+```
+## Negative Junit Test
+### MyMathTest
+```java
+package com.in28min.junit;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class MyMathTest {
+
+	@Test
+	void test() {
+
+		MyMath math = new MyMath();
+
+		int numbers[] = { 1, 2, 3 };
+
+		int result = math.calculateSum(numbers);
+
+		System.out.println(result);
+
+		int expectedResult = 5;
+
+		assertEquals(expectedResult, result);
+	}
+}
+```
+-----------
+-----------
+# 247
+###  MyMathTest
+```java
+package com.in28min.junit;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+class MyMathTest {
+	
+	private MyMath math = new MyMath();
+	
+	@Test	
+	void calculateSum_ZeroLengthArray() {		
+		assertEquals(0, math.calculateSum(new int[] {} ));
+	}
+	
+	@Test	
+	void calculateSum_ThreeMemberArray() {
+		assertEquals(6, math.calculateSum(new int[] { 1, 2, 3 }));
+	}
+}
+```
+### MyMath
+```java
+package com.in28min.junit;
+
+public class MyMath {
+
+	public int calculateSum(int[] numbers) {
+
+		int sum = 0;
+//		int sum = 10;
+		for (int number : numbers) {
+			sum += number;
+		}
+
+		return sum;
+	}
+}
+```
+----
+------
+# 249
+### MyBeforeAfterTest
+```java
+package com.in28min.junit;
+
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+class MyBeforeAfterTest {
+
+	@BeforeAll
+	static void beforeAll() {
+		System.out.println("Before Alll");
+	}
+
+	@BeforeEach
+	void beforeEach() {
+		System.out.println("Before Each");
+	}
+
+	@Test
+	void test1() {
+		System.out.println("test1");
+	}
+
+	@Test
+	void test2() {
+		System.out.println("test2");
+	}
+
+	@AfterEach
+	void afterEach() {
+		System.out.println("After Each");
+	}
+	
+	@AfterAll
+     static void afterAll() {
+		System.out.println("After Alll");
+	}
+}
+```
+----
+----
+
+
 
 
 
